@@ -1,0 +1,54 @@
+*{
+    font-family: nav;
+ }
+
+.intro-block{
+    padding: 0px 200px;
+}
+
+
+.stat-block h2{
+    padding: 50px;
+}
+ .stat-cards{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    background-color:#4DA1A9;
+    color: white;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.key-cards{
+    width: 550px;
+    height: 160px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: rgb(128, 128, 128, 0.2);
+    color: white;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    display: inline-block;
+
+}
+
+.stat-box :hover{
+    transform: scale(1.03);
+}
+
+.cards div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+}

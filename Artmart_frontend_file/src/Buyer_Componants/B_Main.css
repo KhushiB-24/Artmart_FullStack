@@ -1,0 +1,233 @@
+
+
+/* Navbar */
+.main-nav{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: nav;
+}
+
+.nav-logo ul li img{
+    height: 60px;
+    width: 120px;
+    margin: 10px;        
+}
+
+.nav-logo ul li input{
+    margin: 20px;
+    height: 45px;
+    border-radius: 20px;
+    width: 1000px;
+    margin-left: 80px;
+}
+
+.nav-content .nav-item a{
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    font-size: large;
+
+}
+
+
+/* Home */
+
+/* *{
+    border: 1px solid white;
+} */
+.carousel-inner img{
+    height: 600px;
+    width: 1200px;
+    background-color: #3d48485b;
+    padding: 20px 0px;
+}
+
+.cat-card{
+   background-color:  rgb(77, 161, 169, 0.512);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.cat-card:hover{
+    transform: scale(1.05);
+}
+
+.cat-card img{
+    text-align: center;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.cat-cards div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+}
+
+.column-2 img{
+    margin-top: 20px;
+}
+
+.column-1 img{
+    height: 800px;
+    margin-top: 20px;
+}
+
+#big{
+    height: 700px;
+    width: 500px;
+   background-color: black;
+}
+
+.pre-card{
+    background-color:  rgb(77, 161, 169, 0.512);
+    width: 150px;
+     color: white;
+     padding: 10px;
+     object-fit: contain;
+     overflow: hidden;
+     display: inline-flex;
+}
+
+.pre-card .ex-img img{
+    width: 130px;
+    height: auto;
+    text-align: center;
+    object-fit: contain;
+    overflow: hidden;
+ }
+ 
+ .pre-cards div{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 350px;
+     height: 300px;
+ }
+
+
+/* Cart */
+.cart-card{
+    background-color:  rgb(77, 161, 169, 0.512);
+     color: white;
+     padding: 10px;
+     object-fit: contain;
+     overflow: hidden;
+     display: inline-flex;
+ }
+ 
+ .cart-card .cart-img img{
+    width: 90px;
+    height: auto;
+    text-align: center;
+    object-fit: contain;
+    overflow: hidden;
+ }
+ 
+ .cart-cards div{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 350px;
+     height: 300px;
+ }
+
+ .col{
+    align-self: center;
+ }
+
+
+ /* Orders */
+
+ .orders-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    color: white;
+  }
+  
+  .orders-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .no-orders-msg {
+    text-align: center;
+    color: #ccc;
+  }
+  
+  .order-card {
+    background-color: rgba(77, 161, 169, 0.512);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .order-title {
+    width: 100%;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .order-info {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 8px;
+    display: inline-block ;
+    font-size: larger;
+  }
+  
+  
+  .order-item-card {
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1 1 250px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-item-card img {
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  
+
+/* Explore */
+
+.ex-card{
+    background-color:  rgb(77, 161, 169, 0.512);
+    width: 290px;
+     color: white;
+     padding: 10px;
+     object-fit: contain;
+     overflow: hidden;
+     display: inline-flex;
+ }
+
+ .ex-card:hover{
+    transform: scale(1.01);
+}
+ 
+ .ex-card .ex-img img{
+    width: 270px;
+    height: auto;
+    text-align: center;
+    object-fit: contain;
+    overflow: hidden;
+ }
+ 
+ .ex-cards div{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 350px;
+     height: 300px;
+ }

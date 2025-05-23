@@ -1,0 +1,114 @@
+#create input{
+    color: black;
+}
+
+*{
+    margin: 0%;
+}
+
+.product-form{
+    width: 1200px;
+}
+
+.form-control option{
+    color: dark;
+}
+
+.product-submit{
+    padding: 40px 440px 20px 440px;
+}
+
+.product-submit .btn{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    height: 150px;
+}
+#create input{
+    font-family: none;
+    background-color: rgb(77, 161, 169, 0.2);
+    color: #9fb399;
+    border: none;
+    margin: 5px 0px 10px 0px;
+    padding: 10px;   
+}
+
+.card-buttons button{
+    margin: 10px;
+    width: 120px;
+}
+.delete-button{
+    cursor: pointer;
+}
+
+
+/* card properties */
+.man-card{
+    background-color:  rgb(77, 161, 169, 0.512);
+    width: 290px;
+     color: white;
+     padding: 10px;
+     object-fit: contain;
+     overflow: hidden;
+     display: inline-flex;
+ }
+ 
+ .man-card:hover{
+     transform: scale(1.05);
+ }
+ 
+
+ .man-card .man-img img{
+    width: 270px;
+    height: auto;
+    text-align: center;
+    object-fit: contain;
+    overflow: hidden;
+ }
+ 
+ .man-cards div{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 350px;
+     height: 300px;
+ }
+
+
+
+
+
+ /* Dashboard */
+ .dash-card{
+    background-color: rgb(128, 128, 128, 0.2);
+    color: white;
+    margin: 10px;
+ }
+
+
+ /* Orders */
+
+ .order-card{
+    background-color:  rgb(77, 161, 169, 0.512);
+    color: white;
+    padding: 10px;
+    object-fit: contain;
+    overflow: hidden;
+    display: inline-flex;
+    width: 100%;
+ }
+ 
+ .order-card > div{
+    justify-content: space-between;
+ }
+
+ .order-card .order-img img{
+    width: 100px;
+    height: auto;
+    text-align: center;
+    object-fit: contain;
+    overflow: hidden;
+ }
+

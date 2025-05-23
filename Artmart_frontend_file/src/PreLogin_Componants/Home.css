@@ -1,0 +1,206 @@
+#main-body{
+    padding: 60px 20px 20px 50px;
+    background-color: rgb(46, 80, 119, 0.3);
+    color: white;
+    width: 1400px;
+    height: 600px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 0 #79D7BE;
+}
+
+#main-body #right-discrip{
+    padding: 0px 0px 100px 0px;    
+}
+
+#main-body #right-discrip button{
+    background-color: #4DA1A9;
+    height: 55px;
+    width: 115px;
+    border-radius: 30px;
+    font-size: large;
+    border: 3px solid #F6F4F0;
+    margin: 10px;
+}
+#main-body span{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#main-body span small{
+    font-size: 65px;
+    font-weight: 900;
+    color: #4DA1A9 ;
+    
+}
+
+#main-body p{
+    font-size:20px;
+}
+
+#img1hand{
+    position: relative;
+    border-radius: 20px;
+    height: 430px
+}
+
+#img2pink{
+    position: relative;
+    bottom: 106px;
+    left: 25px;
+    border-radius: 20px;
+    height: 215px;
+}
+
+#img3boat{
+    position:relative;    
+    bottom: 190px;
+    left: 370px;
+    border-radius: 20px;
+    height: 170; 
+    width: 290
+}
+/* home contents */
+
+#bg-home{
+    position: absolute;
+    padding: 0%;
+    margin: 0% ;
+    width: 100%;
+    z-index: -1;
+}
+
+#art-types{
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+#art-types span{
+    border: none;
+    box-shadow: none;
+    background-color: rgb(77, 161, 169, 0.512);
+    width: 137px;
+    
+}
+
+#art-types div{
+    display: inline-block;
+}
+
+#art-types a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+
+.main-body > div >div > .main-body-content{
+    position: absolute;
+    top: 320px;
+    left: 200px;
+
+}
+
+@media(max-width: 1286px){
+    #main-body{
+        padding: 60px 20px 20px 50px;
+        background-color: rgb(124, 68, 79, 0.5);
+        color: white;
+        width: 1150px;
+        height: 430px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 0 #79D7BE;
+    }
+
+    #main-body #right-discrip{
+        padding: 70px 0px 0px 0px;    
+    }
+    
+    #main-body #right-discrip button{
+        background-color: #F39E60;
+        height: 35px;
+        width: 85px;
+        border-radius: 30px;
+        font-size: small;
+        border: 3px solid #F6F4F0;
+        margin: 5px
+    }
+
+    #main-body span{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    #main-body span small{
+        font-size: 45px;
+        font-weight: 900;
+        color: #F39E60 ;
+        
+    }
+    
+    #main-body p{
+        font-size:15px;
+    }
+
+    #img1hand{
+        position: relative;
+        border-radius: 20px;
+        width: 30vh;
+        height: 40vh;
+    }
+    
+    #img2pink{
+        position: relative;
+        bottom: 70px;
+        left: 20px;
+        border-radius: 20px;
+        width: 20vh;
+        height: 20vh;    
+    }
+    
+    #img3boat{
+        position:relative;
+        top: 85px;
+        left: -125px;
+        border-radius: 20px;
+        height: 17vh;
+        width: 30vh;
+    }
+
+    #art-types{
+        text-align: center;
+        padding: 10px;
+        width: 1150px;
+        padding: 10px;
+        margin: 5px 0px 5px 0px;
+    }
+
+    #art-types span{
+        border: none;
+        box-shadow: none;
+        background-color: rgb(243, 158, 96, 0.512);
+        width: 180px;
+        margin: 20px;
+        
+        
+    }
+    
+    #art-types div{
+        display: inline-block;
+    }
+    
+    #art-types a{
+        color: black;
+        text-decoration: none;
+        text-align: center;
+    
+    }
+}
+
+@media(max-width: 576px){
+
+}
+

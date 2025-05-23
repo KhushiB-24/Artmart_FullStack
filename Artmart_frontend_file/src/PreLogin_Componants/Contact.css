@@ -1,0 +1,20 @@
+#contact-head h1{ 
+    font-weight: 600;  
+    color: #4DA1A9;
+}
+
+
+#contact-form{
+    align-self: center;
+    padding: 50px;
+    margin: 0px 180px;
+}
+
+
+/* Footer CSS */
+#all-footer{
+    padding: 50px 0px;
+    background-color: rgb(128, 128, 128, 0.2);
+    font-size: large;
+    width: 1490px;
+}

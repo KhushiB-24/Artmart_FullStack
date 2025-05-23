@@ -1,0 +1,10 @@
+.main-app{
+    /* background-image: radial-gradient(#365d53,black); */
+    background-color: black;
+    
+  }
+
+  *{
+    padding: 0%;
+    margin: 0%;
+}

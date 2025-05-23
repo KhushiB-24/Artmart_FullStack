@@ -1,0 +1,33 @@
+.main-nav{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: nav;
+}
+
+*{
+    margin: 0%;
+}
+
+.navbar{
+   background-color: black;
+}
+.nav-logo ul li img{
+    height: 60px;
+    width: 120px;
+    margin: 10px;        
+}
+
+.nav-logo ul li input{
+    margin: 20px;
+    height: 45px;
+    border-radius: 20px;
+    width: 1000px;
+    margin-left: 80px;
+}
+
+.nav-content .nav-item a{
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    font-size: large;
+
+}
